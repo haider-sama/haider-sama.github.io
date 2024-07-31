@@ -55,7 +55,7 @@ p {
 }
 
 .text-container {
-    max-width: 500px; /* Adjust the width as needed */
+    max-width: 400px; /* Adjust the width as needed */
     text-align: justify; /* Justify text to align both left and right edges */
     margin: 0 auto; /* Center the container horizontally */
     position: relative;

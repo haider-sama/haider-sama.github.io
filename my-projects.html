@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://haider-sama.github.io/img/goku.gif">
   <meta property="og:url" content="https://haider-sama.github.io/">
   <meta property="og:type" content="website">
-  <title>Haider.dev | Website</title>
+  <title>Projects | Haider.dev</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
   <link rel="icon" href="img/favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
@@ -66,53 +66,16 @@
   </div>
 </nav>
 
-  <!-- Profile Section -->
-  <div class="flex mx-16 mt-32">
-    <!-- Profile Section -->
-    <div class="flex items-start flex-grow">
-      <!-- Image Container -->
-      <div class="avatar-container mr-6">
-        <img id="gif" src="img/goku.gif" alt="Avatar">
-      </div>
-
-      <!-- Info Section -->
-      <div class="text-gray-900">
-        <p id="name" class="text-xl font-bold">Haider Ali</p>
-        <p id="country" class="text-gray-600">Pakistan</p>
-        <p class="mt-4 text-gray-900">Power Level: <span id="power-level-diplay" class="power-level">27000</span></p>
-        <div id="skills" class="mt-4">
-          <h3 class="text-lg font-semibold">Skills</h3>
-          <ul class="list-disc pl-5">
-            <li>Fullstack Development</li>
-            <li>React & Next.js</li>
-            <li>Node.js</li>
-            <li>MongoDB & Prisma</li>
-            <li>Python & C</li>
-            <li>Linux Basics & Networking</li>
-          </ul>
-        </div>
-      </div>
+<!-- Projects Section -->
+<div class="container mx-auto py-8 m-8">
+    <h1 class="text-3xl font-bold text-center mb-8">My Projects</h1>
+    <div id="category-buttons" class="flex justify-center mb-8">
+        <!-- Category buttons will be inserted here by JavaScript -->
     </div>
-
-    <!-- Canvas and Controls -->
-    <div class="flex flex-col items-end ml-auto hidden md:flex">
-        <img src="img/goku-ssjss-extreme-butoden-win.gif" alt="Animation">
+    <div id="projects-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Project cards will be inserted here by JavaScript -->
     </div>
   </div>
-
-  <!-- Button and Messages Section -->
-  <div class="flex flex-col items-center mt-16 mb-16">
-    <button class="bg-black text-white px-6 py-3 font-medium
-    flex items-center space-x-2 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg text-sm me-2 mb-2"
-            onclick="startPowerLevel()">
-      <span>Check your power level</span>
-      <span class="arrow"><img src="img/right-chevron.png" class="w-4 h-4" /></span>
-    </button>
-    <p id="power-level-display" class="mt-4 hidden">Your power level is: <span class="power-level"></span></p>
-    <p id="character-message" class="mt-2 hidden"></p>
-    <audio id="scouter-sound" src="sounds/scouter-sound.mp3"></audio> <!-- Adjust the path as necessary -->
-  </div>
-
 
 
   <!-- Foooter -->
