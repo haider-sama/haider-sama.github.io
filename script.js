@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Define an array of categories
-const categories = ['All', 'Website', 'Games', 'Python', 'C'];
+const categories = ['All', 'Website', 'Games'];
 
 // Define an array of project objects
 const projects = [
@@ -168,43 +168,6 @@ const projects = [
         repoLink: 'https://github.com/haider-sama/Spotify-Clone',
         category: 'Website'
     },
-
-    {
-        image: 'img/projects/starbucks.png',
-        title: 'Starbucks',
-        description: 'Landing Page made using HTML5 & CSS',
-        repoLink: 'https://github.com/haider-sama/Starbucks_Landing_Page',
-        category: 'Website'
-    },
-    {
-        image: 'img/projects/headphone.png',
-        title: 'Beats3 Headphone',
-        description: 'Beats3 Headphone Landing Page made using HTML5 & CSS',
-        repoLink: 'https://github.com/haider-sama/responsive-headphones-page',
-        category: 'Website'
-    },
-    {
-        image: 'img/projects/fitness.png',
-        title: 'Fitness Website',
-        description: 'Fitness Landing Page made using HTML5 & CSS',
-        repoLink: 'https://github.com/haider-sama/responsive-fitness-page',
-        category: 'Website'
-    },
-    {
-        image: 'img/projects/alphabet-recognition.png',
-        title: 'GUI-Handwritten-Alphabet-Recognition-Model',
-        description: 'Alphabet Recognition Model with GUI made using Python (CNN), HTML, Javascript',
-        repoLink: 'https://github.com/haider-sama/GUI-Handwritten-Alphabet-Recognition-Model',
-        category: 'Python'
-    },
-    {
-        image: '',
-        title: 'Knight-Tour-Genetic-Algorithm',
-        description: 'Popular Chess Problem Knight Tour solved using genetic algorithm.',
-        repoLink: 'https://github.com/haider-sama/Knight-Tour-Genetic-Algorithm',
-        category: 'C'
-    },
-
     // Add more projects as needed
 ];
 
