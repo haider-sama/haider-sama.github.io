@@ -1,0 +1,13 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore package lock file
+package-lock.json
+
+# Optional: Ignore logs and environment files
+npm-debug.log*
+.env
+
+# Optional: Ignore OS files (Mac/Windows)
+.DS_Store
+Thumbs.db
