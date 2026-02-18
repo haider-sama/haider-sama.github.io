@@ -9,7 +9,7 @@
     <meta name="description"
         content="Mechatronics Engineer passionate about building stuff, martial arts and Dragon Ball.">
     <link rel="canonical" href="https://haider-sama.github.io/">
-    <title>Haider Ali - Contact</title>
+    <title>Haider Ali - Games - DBZ Scouter</title>
 </head>
 
 <body class="flex flex-col min-h-screen bg-[#a5a5ff]">
@@ -38,50 +38,36 @@
             </div>
         </nav>
 
-        <main class="flex flex-col px-4 py-8 space-y-4">
-            <!-- ContactSection -->
+        <main class="flex flex-col px-4 py-8 space-y-4 ">
             <div class="border border-gray-400 px-4 py-2 bg-white">
-                <h1 class="font-bold text-xl">Contact</h1>
+                <h1 class="font-bold text-xl">Games / DBZ Scouter</h1>
             </div>
 
-            <div class="p-4 border border-gray-400 bg-white">
-                <div class="space-y-2 text-sm">
-                    <p>Find me anywhere on</p>
-                    <p class="font-semibold">EMAIL:
-                        <span class="text-blue-500">vegeta.khan2000@gmail.com</span>
-                    </p>
-
-                    <p>
-                        <a href="https://steamcommunity.com/id/haider-sama" target="_blank"
-                            class="text-blue-500 hover:no-underline underline cursor-pointer font-semibold">Steam</a>
-                        - I rarely play games here now.
-                    </p>
-                    <p>
-                        <a href="https://github.com/haider-sama" target="_blank"
-                            class="text-blue-500 hover:no-underline underline cursor-pointer font-semibold">Github</a>
-                        - You can find my repositories here.
-                    </p>
-                    <p>
-                        <a href="https://linkedin.com/in/haider-sama" target="_blank"
-                            class="text-blue-500 hover:no-underline underline cursor-pointer font-semibold">Linkedin</a>
-                        - Corporate loif.
-                    </p>
-                    <p>
-                        <a href="https://gamebanana.com/members/2361251" target="_blank"
-                            class="text-blue-500 hover:no-underline underline cursor-pointer font-semibold">GameBanana</a>
-                        - Modding and old source-engine maps.
-                    </p>
-
-                    <p>You can view my
-                        <span class="font-semibold">RESUME</span>
-                        - (I only charge 5,000,000$ for a job):
-                        <a href="/src/assets/docs/resume.pdf" target="_blank"
-                            class="text-blue-500 hover:underline cursor-pointer">HERE</a>
-                    </p>
+            <div class="p-4 border border-gray-400 bg-white space-y-4 text-center">
+                <div id="character-image-container" class="border border-gray-400 bg-white w-fit mx-auto">
+                    <canvas id="character-canvas" width="72" height="88"></canvas>
                 </div>
+
+                <div id="power-level-display" class="text-xl font-semibold">
+                    Power Level: <span class="power-level">0</span>
+                    <audio id="scouter-sound" src="/src/assets/sounds/scouter.mp3"></audio>
+                </div>
+
+                <button id="start-button"
+                    class="px-4 py-2 w-32 bg-[#101010] text-white hover:bg-white hover:text-black cursor-pointer border border-[#101010]">
+                    Scan
+                </button>
+
+                <div>
+                    Result: <span id="character-message" class="hidden"></span>
+                </div>
+
             </div>
         </main>
+
     </div>
+
+    <script type="module" src="/src/js/dbz-minigame.js"></script>
 
     <footer class="text-center text-xs py-4">
         <p>

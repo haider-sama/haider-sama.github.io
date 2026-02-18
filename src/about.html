@@ -3,96 +3,141 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
-    <link href="./output.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/src/assets/favicon.svg" />
+    <link href="/src/output.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Mechatronics student & Full-Stack Web Developer passionate about building stuff, martial arts and Dragon Ball.">
+        content="Mechatronics Engineer passionate about building stuff, martial arts and Dragon Ball.">
     <link rel="canonical" href="https://haider-sama.github.io/">
     <title>Haider Ali - About</title>
 </head>
 
-<body class="flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen bg-[#a5a5ff]">
+    <div class="max-w-3xl mx-auto w-full bg-gray-100 border-x border-b border-gray-400">
 
-    <!-- Header -->
-    <header class="text-center py-4 text-4xl">
-        <h1 class="text-4xl font-bold">
-            Haider Ali
-        </h1>
-    </header>
+        <!-- Header -->
+        <header class="text-center py-16 text-4xl bg-cover bg-center bg-[url('assets/img/land.jpg')]">
+            <h1 class="text-4xl font-bold text-white pixel-shadow">
+                Haider Ali
+            </h1>
+        </header>
 
-    <!-- NavBar -->
-    <nav class="bg-gray-100 flex flex-row justify-center
-    border border-gray-300">
-        <div class="px-4 py-2 border-x border-gray-300 cursor-pointer hover:bg-gray-200 relative group">
-            <a href="/index.html">Home</a>
-        </div>
-        <div class="px-4 py-2 border-r border-gray-300 cursor-pointer hover:bg-gray-200 relative group">
-            <a href="projects-page-1.html">Projects</a>
-        </div>
-        <div class="px-4 py-2 border-r border-gray-300 cursor-pointer hover:bg-gray-200 relative group">
-            <a href="about.html">About</a>
-        </div>
-        <div class="px-4 py-2 border-r border-gray-300 cursor-pointer hover:bg-gray-200 relative group">
-            <a href="contact.html">Contact</a>
-        </div>
-    </nav>
+        <!-- NavBar -->
+        <nav class="bg-gray-100 flex flex-row justify-center border-y border-gray-400">
+            <div class="px-4 py-2 border-x border-gray-400 cursor-pointer hover:bg-gray-200 relative group">
+                <a href="/index.html">Home</a>
+            </div>
+            <div class="px-4 py-2 border-r border-gray-400 cursor-pointer hover:bg-gray-200 relative group">
+                <a href="/src/projects-page-1.html">Projects</a>
+            </div>
+            <div class="px-4 py-2 border-r border-gray-400 cursor-pointer hover:bg-gray-200 relative group">
+                <a href="/src/about.html">About</a>
+            </div>
+            <div class="px-4 py-2 border-r border-gray-400 cursor-pointer hover:bg-gray-200 relative group">
+                <a href="/src/contact.html">Contact</a>
+            </div>
+        </nav>
 
-    <main class="flex-1 border border-t-0 border-gray-300 md:mx-[16rem] px-8">
-        <!-- AboutSection -->
-        <div class="py-8">
-            <h1 class="font-bold text-xl">About</h1>
-            <div class="relative">
-                <img src="assets/img/goku.gif" alt="Haider" title="Haider"
-                    class="float-right w-1/2 max-w-[320px] ml-8 mb-4 object-cover" />
+        <main class="flex flex-col px-4 py-8">
+            <!-- AboutSection -->
+            <div class="border border-gray-400 px-4 py-2  bg-white">
+                <h1 class="font-bold text-xl">About</h1>
+            </div>
 
-                <div class="text-justify space-y-4 text-sm">
-                    <p>
-                        Hello. This is Haider. A mechatronics student and a web-developer. You have been roaming around
-                        lately and
-                        have stumbled upon the domain which is known as my website. Rest here, fellow warrior. Make a
-                        cup of
-                        tea and relax and enjoy the surrounding around you.
-                    </p>
-                    <p>
-                        Some of my hobbies include programming things which I like, to build, to see them in shape. I've
-                        used to do
-                        source-engine mapping in the past. Along, with a few of my hobby projects that I'm working on.
-                        My first
-                        anime is Dragon-Ball-Z which I grew up watching, made me learn a lot of things that I couldn't
-                        have learnt
-                        without it. Some of the major scenes in Z are top-notch. Enough to push a man to shatter limits
-                        and shackles
-                        of doubt that would seperate a legend from a trespasser in this vastness of space that we live
-                        in. Positive
-                        enough to say that I'm a follower of it and know inside-out of the series. Whether, it's Z or
-                        GT. My
-                        favourites techniques in the series are Kaio-ken(界王拳), Dragon-First(龍拳), Ultra Instinct (身勝手の極意
-                        (Migatte no
-                        Gokui)), Bukūjutsu (舞空術). My other hobbies including sketching, primarily dragon ball
-                        characters, I also
-                        practice martial arts, including boxing, muay thai and wrestling.
-                    </p>
-                    <p>
-                        I've a lot of interesting projects and goals that I'll build and complete in the near future.
-                        The best
-                        strategy is to write down your goals at the start of the year and then follow a weekly
-                        consistent plan.
-                        Slowly, but gradually. You acheive what you've written down. Works for me everytime for the past
-                        2 years.
-                        2025 is about to end in 4 months and I've already completed almost all of my goals that I had
-                        written down.
-                    </p>
-                    <p>
-                        It's always believed and I've advised myself to never quit. No matter the odds. Because success
-                        comes
-                        through fruition finally. If we push with absolute relentlessness.
-                    </p>
+            <div class="max-w-4xl mx-auto my-4 p-4 border border-gray-400 bg-white">
+                <div class="flex space-x-4">
+                    <!-- pfp  -->
+                    <div class="flex flex-col space-y-2 flex-shrink-0">
+                        <img src="/src/assets/img/goku.gif" alt="Haider" title="Haider" class="w-32 h-32 object-cover" />
+
+                        <!-- Tags -->
+                        <div class="flex flex-col space-y-1 mt-2">
+                            <span
+                                class="px-2 py-1 bg-gradient-to-b from-red-200 to-red-400 text-xs rounded text-center text-gray-800">Engineer</span>
+                            <span
+                                class="px-2 py-1 bg-gradient-to-b from-green-200 to-green-400 text-xs rounded text-center text-gray-800">Traveller</span>
+                            <span
+                                class="px-2 py-1 bg-gradient-to-b from-blue-200 to-blue-400 text-xs rounded text-center text-gray-800">Martial
+                                Artist</span>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="border-r border-gray-300"></div>
+
+                    <!-- Content -->
+                    <div class="flex-1 flex flex-col text-justify justify-between">
+                        <div class="text-sm space-y-2">
+                            <p>
+                                Hi! This is Haider. Mechatronics Engineer who has a passion for building stuff,
+                                martial arts and Dragon Ball.
+                                Rest here, fellow warrior. Make a cup of tea and relax and enjoy the
+                                nature around you.
+                            </p>
+                            <p>
+                                I've been developing websites since I was 9 years old. I've worked on source-engine
+                                mapping in the past, made CS:Source maps, particularly Zombie Escape. Had a passion
+                                for it. I do engine development as my primary hobby now and my primary focus is on
+                                low-level
+                                firmware and embedded hardware.
+                            </p>
+                            <p>
+                                <span class="font-bold">Interests:</span>
+                                Watching Dragon Ball only (
+                                <span class="relative group">
+                                    Giga Chad
+                                    <!-- Hidden image that shows on hover -->
+                                    <img src="/src/assets/img/gigachad.jpg" alt="GigaChad" class="absolute left-1/2 transform w-64 h-auto opacity-0
+                                        group-hover:opacity-100 transition-opacity duration-100 pointer-events-none" />
+                                </span>
+
+                                Behaviour
+                                ), Martial Arts, 3D Modelling / 2D
+                                Animation, Game Engine Development, Sketching, Meditating, Enjoying Nature.
+                            </p>
+                            <p>
+                                <span class="font-bold">Current Project(s):</span>
+                                Custom Game Engine (C++ & OpenGL)
+                            </p>
+                            <p>
+                                <span class="font-bold">Languages:</span>
+                                C++, TypeScript, JavaScript
+                            </p>
+
+                            <p>
+                                <span class="font-bold">Frontend:</span>
+                                React, Next.js
+                            </p>
+
+                            <p>
+                                <span class="font-bold">Backend:</span>
+                                Node.js, Express.js, REST, All Third-Party Libs (even goofy can integrate just by
+                                reading
+                                docs)
+                            </p>
+
+                            <p>
+                                <span class="font-bold">Databases:</span>
+                                PostgreSQL, MongoDB, Redis
+                            </p>
+
+                            <p>
+                                <span class="font-bold">Tools:</span>
+                                Git, Linux (I prefer Kali or Mint)
+                            </p>
+                        </div>
+
+                        <!-- Date on the far right bottom -->
+                        <div class="flex justify-end mt-4 text-xs text-gray-500">
+                            <span>Feb 14, 2026</span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
 
-    </main>
+        </main>
+    </div>
 
     <footer class="text-center text-xs py-4">
         <p>
@@ -102,8 +147,6 @@
             </a>.
         </p>
     </footer>
-
-    <script type="module" src="./js/index.js"></script>
 
 </body>
 
