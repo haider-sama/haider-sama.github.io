@@ -1,4 +1,4 @@
-const spriteSheet = "/src/assets/img/games/dbz_char_map.png";
+const spriteSheet = "/assets/img/games/dbz_char_map.png";
 const spriteWidth = 72;
 const spriteHeight = 88;
 
